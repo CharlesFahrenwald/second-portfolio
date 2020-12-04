@@ -1,0 +1,31 @@
+body{
+    background-color: tan;
+}
+.group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item {
+    flex: 1;
+    margin: 20px;
+  }
+
+	.gap-sm {
+    height: 25px;
+    width: auto;
+}
+.gap-footer{
+	height:20px;
+	
+}
+main{
+	text-align: center;
+}
+footer{
+	text-align: center;
+}
+header{
+	text-align: center;
+}
+hr { border: .5px solid black;}
