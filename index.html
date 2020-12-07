@@ -4,17 +4,25 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Beginner Portfilio</title>
-	<link rel="stylesheet" href=https://github.com/CharlesFahrenwald />
+	<title>Charles Fahrenwald's Portfolio</title>
+	<link href=https://github.com/CharlesFahrenwald rel="stylesheet"/>
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <header>
-     <h1>Charles Fahrenwald</h1>    
+        <div class="title">Charles Fahrenwald</div>
+        <nav>
+          <ul id="menu">
+            <li><a href="home">Home</a></li>
+            <li><a href="about me">About me</a></li>
+            <li><a href="projects">Projects</a></li>
+            <li><a href="#">Contact me</a></li>
+          </ul>
+        </nav>
     </header>
     <main>
-        <section>
+        <section id = "home">
                 <h2>Meet Charles</h2>
                 <div class="group">
                     <div class="item">
@@ -24,17 +32,38 @@
                         <hr>
                         <div class="gap-sm"></div></div>
                     </div>
+                </section>
+                    <section id="about me"></section>
                     <div class="item">
                         <h3>About Me</h3>
                         <p>I grew up in a small town in Illinois called Warrenville approximately two hours outside of the city of Chicago. I recently moved to Arizona because I loved how different the state felt, the mountain hiking is extremely fun and enjoyable.</p>
 		                <p>I originally had  plans of going to college for an enginnering degree, at the time I wasn't sure of which enginnering degree I wanted to pursue. After enough thinking I decieded to go into software enginnering and so far love it.</p> 
 	                    <p> I believe software enginnering to me is a perfect fit since I already love computers I have bulit both of my personal computer for gaming and work. I also enjoy working on team projects sharing opinions and and coming up with solutions creativly for problems that occur. 	</p>
-                    </div>
+                    <p> What I want to provide you</p>
+                    <ul>
+                        <li>Functionallity within your website</li>
+                        <li>A Clear and eliglble website </li>
+                        <li>A more productive work flow</li>
+                    </ul>
+                    
+                    </section>
+                </div>
+                     
                     <hr>
+                    <section id="projects">
             <div class="item">
                         <h3>My Projects</h3>
-                        <a href="https://github.com/CharlesFahrenwald">GitHub</a>
+                        <div class="group">
+                            <div class="item">
+                                <h4>Job Searching App</h4>
+                                <p>This is my current application I am working on, I am making this application to replace all other Job searching applications. It will have a cleaner interface and more effictive way to help people find work sooner!</p>
+                                <p>The coding languages I am using for this app are HTML, CSS and JavaScript</p>
+                                <a href="#"> Example Link</a>
+                            </div>
+                        </div>
+                        <p><a href="https://github.com/CharlesFahrenwald">GitHub</a> </p>
                     </div>
+                </div>
         </section>
         <hr>
         </main>
@@ -43,6 +72,26 @@
             <div class="gap-footer"></div>
              <p>Charles Fahrenwald</p>
          </div>
+         <section>
+			<h2>Contact me!</h2>
+			<div class="group">
+				<div class="item">
+				<form action="#" method="POST">
+          <label for="user-name">Name:</label>
+          <input id="user-name" type="text" name="name">
+          <label for="user-email">Email:</label>
+          <input id="user-email" type="text" name="email">
+         <label for="user-message">Message:</label>
+          <textarea id="user-message" name="message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+				</div>
+				<div class="item">
+          <p>Email: <a href="mailto:charliefah@gmail.com">charliefah@gmail.com</a><p>
+        <p>Linkedin: <a href="https://www.linkedin.com/in/charles-fahrenwald-547690200/"> My Linkedin</a></p>
+				</div>
+			</div>
+		</section>
      </footer>
         <script src="script.js"></script>
     </body>
