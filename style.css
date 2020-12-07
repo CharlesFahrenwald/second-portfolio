@@ -80,5 +80,7 @@ form{margin-top: 5px;
   header nav ul li a:hover {
     color: blue;
   }
-
+.item-double {
+  flex: 2;
+}
 }
