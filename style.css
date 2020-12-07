@@ -55,6 +55,10 @@ header nav ul li a {
 header nav ul li:last-child a {
   margin-right: 0;
 }
+
+.title{
+	font-size medium;
+}
 @media all and (min-width: 600px) {
     header {
     display: flex;
