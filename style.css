@@ -27,12 +27,12 @@ header, footer, main{
 hr { border: .5px solid black;}
 
 header {
-  background-color: #000;
+  background-color: tan;
   margin-bottom: 40px;
 }
 
 header h1 {
-  color: #fff;
+  color: black;
   text-align: center;
   margin: 0;
   padding-top: 20px;
@@ -45,13 +45,10 @@ header nav {
 
 header nav ul {
   display: flex;
-  padding-left: 0;
-  list-style: none;
 }
 
 header nav ul li a {
-  color: #fff;
-  text-decoration: none;
+  color: black;
   margin: 0 20px 0 0;
 }
 
